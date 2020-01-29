@@ -13,6 +13,9 @@ class MP3Importer
   end 
   
   def import 
+    files.each do  |file_name|
+      file_name_array = file_name.split(" - ")
+    end 
   end 
   
 end 
