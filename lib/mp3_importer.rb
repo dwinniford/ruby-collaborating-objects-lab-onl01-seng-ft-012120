@@ -9,7 +9,7 @@ class MP3Importer
   
   def files
     all_files = Dir.entries @path
-    all_files.select { |file_name| file_name.ends_with?("mp3") }
+    all_files.select { |file_name| file_name.end_with?("mp3") }
   end 
   
   def import 
