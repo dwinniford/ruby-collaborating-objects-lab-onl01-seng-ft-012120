@@ -18,6 +18,6 @@ class MP3Importer
 end 
   
   
-  my_music = MP3Importer.new('./spec/fixtures')
+  # my_music = MP3Importer.new('./spec/fixtures')
   
-  puts my_music.files
+  # puts my_music.files
